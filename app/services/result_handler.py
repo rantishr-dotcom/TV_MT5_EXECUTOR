@@ -1,21 +1,25 @@
+
 class ResultHandler:
 
-    def success(
-        self,
-        result
-    ):
+    def process(self, result):
 
-        return {
-            "success": True,
-            "result": result
-        }
+        if result is None:
+            return {
+                "success": False,
+                "reason": "no_result"
+            }
 
-    def failure(
-        self,
-        reason
-    ):
+        try:
 
-        return {
-            "success": False,
-            "reason": reason
-        }\n
+            return {
+                "success": result.retcode == 10009,
+                "retcode": result.retcode,
+                "comment": getattr(result, "comment", "")
+            }
+
+        except Exception as e:
+
+            return {
+                "success": False,
+                "error": str(e)
+            }

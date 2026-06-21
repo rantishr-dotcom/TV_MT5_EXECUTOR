@@ -1,9 +1,15 @@
+
+from app.services.signal_processor import SignalProcessor
+
+
 class WebhookTradePipeline:
+
+    def __init__(self):
+
+        self.processor = SignalProcessor()
 
     def process(self, signal):
 
-        return {
-            "status": "pipeline_received",
-            "symbol": getattr(signal, "symbol", None),
-            "side": getattr(signal, "side", None)
-        }\n
+        return self.processor.process(
+            signal
+        )
