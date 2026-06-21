@@ -1,16 +1,27 @@
-
 from datetime import datetime
-from app.database.trade_repository import save_trade
 
 
-def store_trade(db, trade):
+class TradeStorage:
 
-    try:
-        trade.created_at = datetime.utcnow()
-    except Exception:
-        pass
+    def store(
+        self,
+        signal,
+        result
+    ):
 
-    return save_trade(
-        db,
-        trade
-    )
+        return {
+
+            "stored": True,
+
+            "timestamp":
+                datetime.utcnow().isoformat(),
+
+            "symbol":
+                signal.symbol,
+
+            "side":
+                signal.side,
+
+            "result":
+                result
+        }\n
