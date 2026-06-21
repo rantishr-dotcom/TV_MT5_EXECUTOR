@@ -1,18 +1,31 @@
 
-from app.services.trade_pipeline import TradePipeline
-from app.services.trade_state_manager import TradeStateManager
+from app.services.webhook_trade_pipeline import (
+    WebhookTradePipeline
+)
+
+from app.services.trade_state_manager import (
+    TradeStateManager
+)
 
 
 class ExecutionManager:
 
     def __init__(self):
 
-        self.pipeline = TradePipeline()
-        self.state_manager = TradeStateManager()
+        self.pipeline = (
+            WebhookTradePipeline()
+        )
 
-    def run(self, signal):
+        self.state_manager = (
+            TradeStateManager()
+        )
 
-        result = self.pipeline.execute(
+    def run(
+        self,
+        signal
+    ):
+
+        result = self.pipeline.process(
             signal
         )
 
@@ -21,6 +34,6 @@ class ExecutionManager:
         )
 
         return {
-            "pipeline": result,
+            "result": result,
             "state": state
         }
