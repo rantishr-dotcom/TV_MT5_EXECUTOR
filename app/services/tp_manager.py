@@ -5,27 +5,24 @@ class TPManager:
         trade
     ):
 
-        return {
-            "ticket": trade.get("ticket"),
-            "event": "tp1_hit"
-        }
+        trade["event"] = "tp1"
+
+        return trade
 
     def tp2_hit(
         self,
         trade
     ):
 
-        return {
-            "ticket": trade.get("ticket"),
-            "event": "tp2_hit"
-        }
+        trade["event"] = "tp2"
+
+        return trade
 
     def tp3_hit(
         self,
         trade
     ):
 
-        return {
-            "ticket": trade.get("ticket"),
-            "event": "tp3_hit"
-        }\n
+        trade["event"] = "tp3"
+
+        return trade\n
