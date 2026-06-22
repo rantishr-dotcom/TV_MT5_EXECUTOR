@@ -21,4 +21,4 @@ class TradeStateManager:
 
             "ticket": ticket,
             "state": state
-        }\n
+        }

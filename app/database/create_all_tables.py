@@ -13,4 +13,4 @@ def create_all_tables():
 
     Base.metadata.create_all(bind=engine)
 
-    print("All tables created.")\n
+    print("All tables created.")

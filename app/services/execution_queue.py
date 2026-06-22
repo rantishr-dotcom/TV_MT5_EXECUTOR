@@ -10,4 +10,4 @@ class ExecutionQueue:
         self.queue.append(signal)
 
     def size(self):
-        return len(self.queue)\n
+        return len(self.queue)

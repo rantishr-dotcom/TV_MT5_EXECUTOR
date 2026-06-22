@@ -9,4 +9,4 @@ class AccountExecutor:
             "account": account,
             "status": "queued",
             "symbol": signal.symbol
-        }\n
+        }

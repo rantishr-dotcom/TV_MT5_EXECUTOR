@@ -33,4 +33,4 @@ def receive_signal(
     return {
         "received": True,
         "result": result
-    }\n
+    }

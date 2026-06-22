@@ -10,4 +10,4 @@ router = APIRouter()
 @router.get("/dashboard")
 def dashboard():
 
-    return get_dashboard_data()\n
+    return get_dashboard_data()

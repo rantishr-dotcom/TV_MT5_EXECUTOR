@@ -25,4 +25,4 @@ class TPManager:
 
         trade["event"] = "tp3"
 
-        return trade\n
+        return trade

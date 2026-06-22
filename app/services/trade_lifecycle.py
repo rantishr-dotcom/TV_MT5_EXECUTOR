@@ -48,4 +48,4 @@ class TradeLifecycle:
 
         return self.tp.tp3_hit(
             trade
-        )\n
+        )

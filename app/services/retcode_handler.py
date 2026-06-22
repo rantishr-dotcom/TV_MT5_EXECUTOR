@@ -5,4 +5,4 @@ class RetcodeHandler:
         return {
             "retcode": retcode,
             "success": retcode == 10009
-        }\n
+        }

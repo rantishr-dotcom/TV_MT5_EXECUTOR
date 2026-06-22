@@ -24,4 +24,4 @@ def delete_account(account_id: int):
 
     return {
         "deleted": account_id
-    }\n
+    }

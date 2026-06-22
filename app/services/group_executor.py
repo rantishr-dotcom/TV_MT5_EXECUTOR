@@ -8,4 +8,4 @@ class GroupExecutor:
         return {
             "group": group_name,
             "status": "queued"
-        }\n
+        }

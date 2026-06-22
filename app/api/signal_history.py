@@ -9,4 +9,4 @@ def signal_history():
 
     return {
         "status": "ready"
-    }\n
+    }

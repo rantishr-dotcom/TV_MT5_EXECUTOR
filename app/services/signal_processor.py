@@ -23,4 +23,4 @@ class SignalProcessor:
         return {
             "valid": valid,
             "signal": signal
-        }\n
+        }

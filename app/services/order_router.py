@@ -6,4 +6,4 @@ class OrderRouter:
     ):
         return {
             "route": "default"
-        }\n
+        }

@@ -10,4 +10,4 @@ def health():
         "database": "ok",
         "mt5": "ok",
         "webhook": "ok"
-    }\n
+    }

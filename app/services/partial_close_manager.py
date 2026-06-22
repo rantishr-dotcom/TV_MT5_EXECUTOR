@@ -42,4 +42,4 @@ class PartialCloseManager:
 
         return mt5.order_send(
             request
-        )\n
+        )

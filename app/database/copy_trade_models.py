@@ -10,4 +10,4 @@ class CopyTrade(Base):
     __tablename__ = "copy_trades"
 
     id = Column(Integer, primary_key=True)
-    master_ticket = Column(String)\n
+    master_ticket = Column(String)

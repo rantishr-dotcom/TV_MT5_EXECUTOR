@@ -50,4 +50,4 @@ class ResultHandler:
 
                 "success": False,
                 "error": str(e)
-            }\n
+            }

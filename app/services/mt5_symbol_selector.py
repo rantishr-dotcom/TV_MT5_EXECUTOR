@@ -22,4 +22,4 @@ class MT5SymbolSelector:
                 True
             )
 
-        return True\n
+        return True

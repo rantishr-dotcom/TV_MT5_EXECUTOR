@@ -11,4 +11,4 @@ class ExecutionRecord(Base):
 
     id = Column(Integer, primary_key=True)
     account = Column(String)
-    status = Column(String)\n
+    status = Column(String)

@@ -32,4 +32,4 @@ class TrailingStopManager:
 
         return mt5.order_send(
             request
-        )\n
+        )

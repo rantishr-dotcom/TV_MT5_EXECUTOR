@@ -34,4 +34,4 @@ class LotCalculator:
         return round(
             lot,
             2
-        )\n
+        )

@@ -36,15 +36,15 @@ def send_order(
 
         "symbol": symbol,
 
-        "volume": volume,
+        "volume": float(volume),
 
         "type": order_type,
 
-        "price": price,
+        "price": float(price),
 
-        "sl": sl,
+        "sl": float(sl),
 
-        "tp": tp,
+        "tp": float(tp),
 
         "deviation": DEFAULT_DEVIATION,
 
@@ -55,7 +55,20 @@ def send_order(
         "type_time": mt5.ORDER_TIME_GTC,
 
         "type_filling": mt5.ORDER_FILLING_IOC
-
     }
 
-    return mt5.order_send(request)\n
+    print("=" * 50)
+    print("ORDER REQUEST")
+    print(request)
+
+    result = mt5.order_send(request)
+
+    print("=" * 50)
+    print("ORDER RESULT")
+    print(result)
+
+    if result is not None:
+        print("RETCODE =", result.retcode)
+        print("COMMENT =", result.comment)
+
+    return result

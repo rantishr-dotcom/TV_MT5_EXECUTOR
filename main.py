@@ -21,4 +21,4 @@ def health():
     }
 
 app.include_router(webhook_router)
-app.include_router(monitor_router)\n
+app.include_router(monitor_router)

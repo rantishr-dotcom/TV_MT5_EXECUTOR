@@ -43,4 +43,4 @@ class MT5LiveExecutor:
             request
         )
 
-        return result\n
+        return result

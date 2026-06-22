@@ -11,4 +11,4 @@ def status():
 
     return {
         "status": "running"
-    }\n
+    }

@@ -11,4 +11,4 @@ def ensure_symbol(symbol):
     if not info.visible:
         mt5.symbol_select(symbol, True)
 
-    return True\n
+    return True

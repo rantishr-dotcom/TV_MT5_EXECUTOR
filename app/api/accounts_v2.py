@@ -10,4 +10,4 @@ def health():
 
     return {
         "status": "ok"
-    }\n
+    }

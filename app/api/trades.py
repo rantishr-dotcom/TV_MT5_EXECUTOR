@@ -24,4 +24,4 @@ def trade_history():
 
     return {
         "history": []
-    }\n
+    }

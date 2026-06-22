@@ -16,4 +16,4 @@ class RiskIntegration:
             risk_percent,
             entry,
             sl
-        )\n
+        )

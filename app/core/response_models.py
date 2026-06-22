@@ -11,4 +11,4 @@ def error_response(message):
     return {
         "success": False,
         "message": message
-    }\n
+    }

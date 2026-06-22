@@ -38,4 +38,4 @@ class LiveTradeService:
             "success": True,
             "lot": lot,
             "result": str(result)
-        }\n
+        }

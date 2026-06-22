@@ -24,4 +24,4 @@ class RiskEngine:
             account.balance,
             account.risk_percent,
             signal.stop_loss_pips
-        )\n
+        )

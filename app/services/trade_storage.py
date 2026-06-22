@@ -24,4 +24,4 @@ class TradeStorage:
 
             "result":
                 result
-        }\n
+        }

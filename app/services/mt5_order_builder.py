@@ -56,4 +56,4 @@ class MT5OrderBuilder:
 
             "type_filling":
                 mt5.ORDER_FILLING_IOC
-        }\n
+        }

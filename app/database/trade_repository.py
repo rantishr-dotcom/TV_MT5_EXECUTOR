@@ -6,4 +6,4 @@ def save_trade(db, trade):
 
     db.refresh(trade)
 
-    return trade\n
+    return trade

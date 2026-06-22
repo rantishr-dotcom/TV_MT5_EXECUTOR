@@ -10,4 +10,4 @@ def get_positions(symbol=None):
 
 
 def close_position(ticket):
-    return ticket\n
+    return ticket

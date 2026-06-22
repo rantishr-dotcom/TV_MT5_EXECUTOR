@@ -6,4 +6,4 @@ def store_signal(db, signal):
     return save_signal(
         db,
         signal.dict()
-    )\n
+    )

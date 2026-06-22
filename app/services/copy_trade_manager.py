@@ -7,4 +7,4 @@ class CopyTradeManager:
         return {
             "copied": True,
             "ticket": master_trade
-        }\n
+        }

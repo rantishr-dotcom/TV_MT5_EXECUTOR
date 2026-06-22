@@ -45,4 +45,4 @@ class SLManager:
 
         return mt5.order_send(
             request
-        )\n
+        )

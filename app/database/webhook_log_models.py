@@ -23,4 +23,4 @@ class WebhookLog(Base):
     created_at = Column(
         DateTime,
         default=datetime.utcnow
-    )\n
+    )

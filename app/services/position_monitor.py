@@ -14,4 +14,4 @@ class PositionMonitor:
         if positions is None:
             return 0
 
-        return len(positions)\n
+        return len(positions)

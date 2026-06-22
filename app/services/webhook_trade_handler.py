@@ -18,4 +18,4 @@ class WebhookTradeHandler:
 
         return self.service.execute(
             signal
-        )\n
+        )

@@ -71,4 +71,4 @@ class ExecutionManager:
 
             "stored":
                 stored
-        }\n
+        }

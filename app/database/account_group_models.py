@@ -20,4 +20,4 @@ class AccountGroup(Base):
     enabled = Column(
         Boolean,
         default=True
-    )\n
+    )

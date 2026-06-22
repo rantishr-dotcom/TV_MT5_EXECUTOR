@@ -14,4 +14,4 @@ class TradeValidator:
         if signal.entry <= 0:
             return False
 
-        return True\n
+        return True

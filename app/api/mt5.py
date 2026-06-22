@@ -18,4 +18,4 @@ def mt5_status():
 
         "connected":
             connector.connect()
-    }\n
+    }

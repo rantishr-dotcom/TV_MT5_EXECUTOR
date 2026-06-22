@@ -19,4 +19,4 @@ class SymbolMapper:
         return self.MAP.get(
             symbol,
             symbol
-        )\n
+        )

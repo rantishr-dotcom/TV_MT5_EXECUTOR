@@ -21,4 +21,4 @@ class MT5LiveConnector:
 
     def terminal_info(self):
 
-        return mt5.terminal_info()\n
+        return mt5.terminal_info()

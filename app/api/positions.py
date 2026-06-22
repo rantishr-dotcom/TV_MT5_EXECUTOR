@@ -16,4 +16,4 @@ def positions():
     return {
         "count":
             monitor.count()
-    }\n
+    }

@@ -8,4 +8,4 @@ def status():
 
     return {
         "live_trade": True
-    }\n
+    }
